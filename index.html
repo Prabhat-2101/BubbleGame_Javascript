@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.6fDfrCVcNBS6D4jgw-ThJQHaFV?pid=ImgDet&rs=1" type="image/x-icon">
+    <title>Bubble Bubble</title>
+</head>
+<body>
+    <header>
+        <h1>Bubble Game</h1>
+    </header>
+    <div class="gamePart">
+        <button onclick="showGame()" id="start">Start Game</button>
+        <div class="container" id="game">
+            <div class="top">
+                <div class="nav">
+                    <h4>Click: </h4>
+                    <div id="newTarget" class="box"></div>
+                </div>
+                <div class="nav">
+                    <h4>Timer: </h4>
+                    <div id="timer" class="box" >60</div>
+                </div>
+                <div class="nav">
+                    <h4>Score: </h4>
+                    <div id="score" class="box">0</div>
+                </div>
+            </div>
+            <div id="bottom">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
